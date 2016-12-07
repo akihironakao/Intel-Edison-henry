@@ -1,6 +1,6 @@
 import sys
-sys.path.append('/eaglet/lib')
-sys.path.append('/eaglet/module')
+sys.path.append('./lib')
+sys.path.append('./module')
 from MPU9250 import MPU9250
 from pprint import pprint
 import time
